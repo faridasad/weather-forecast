@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+    background-image: url(images/default_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    height: 100vh;
+}
+.header{
+    padding: 50px 20px 30px 20px;
+}
+.header h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #fbb034;
+}
+.header input{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #fbb034;
+    text-align: center;
+    font-size: 20px;
+    color: #f2f2f2;
+    margin-top: 50px;
+    transition: 300ms all;
+}
+.header input:focus{
+    border-bottom: 2px solid #fff;
+}
+
+.header input:focus::placeholder{
+    color: transparent;
+}
+.content{
+    margin-top: 20px;
+}
+
+.city{
+    font-size: 35px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+}
+
+.temp{
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.desc {
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.minmax{
+    margin-top: 30px;
+    font-size: 24px;
+}
